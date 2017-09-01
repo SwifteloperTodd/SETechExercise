@@ -5,3 +5,7 @@
   %br
   Using Ruby Version:
   = RUBY_VERSION
+  %br
+  Page loaded on
+  = day = Date.current.day.ordinalize
+  = Time.current.strftime("%A %B #{day}, %Y at %l:%M%P")

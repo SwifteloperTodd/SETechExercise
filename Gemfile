@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 # Haml
 gem 'haml-rails'
 
+# MySQL2
+gem 'mysql2', '~>0.3.15'
+
 
 
 # Force Ruby Version
