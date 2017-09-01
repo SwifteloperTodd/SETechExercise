@@ -6,6 +6,9 @@ gem 'haml-rails'
 # MySQL2
 gem 'mysql2', '~>0.3.15'
 
+# Secrets
+gem 'figaro'
+
 
 
 # Force Ruby Version
