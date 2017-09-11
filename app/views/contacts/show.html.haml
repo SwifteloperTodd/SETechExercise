@@ -1,0 +1,10 @@
+%p#notice= notice
+
+%h3
+  = @contact.first_name
+  = @contact.last_name + ':'
+  = @contact.pretty_number
+
+= link_to 'Edit', edit_contact_path(@contact)
+\|
+= link_to 'Back', contacts_path
