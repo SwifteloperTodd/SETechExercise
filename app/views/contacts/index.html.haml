@@ -1,4 +1,4 @@
-%h1 Listing contacts
+%h1 Listing Contacts ordered by Last Name
 
 %table
   %thead
@@ -9,7 +9,7 @@
       %th
 
   %tbody
-    - @contacts.each do |contact|
+    - @contacts.order(:last_name).each do |contact|
       %tr
         %td= contact.first_name
         %td= contact.last_name
